@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Example page</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Passion+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="container-fluid">
+    <div class="row top-bar">
+      <div class="row top-bar-content">
+        <div class="col-lg-6 col-sm-12 ">
+          <div id="site-title">
+            <h1>Example Page</h1>
+          </div>
+        </div>
+        <div class="col-lg-6 col-sm-12 ">
+          <div class="navigation">
+            <div class="dropdown">
+              <button class="dropbtn">Item 1
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="#">Item title 2a</a>
+                <a href="#">Item 2b</a>
+              </div>
+            </div>
+            <a href="#home">Item 2</a>
+            <a href="#news">Item 3</a>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--.row -->
+
+
+    <div class="row header-row">
+      <div class="col-12">
+        <header>
+          <h1>Welcome to My Example Page</h1>
+          <h2>This is our new assessment</h2>
+          <div class="img-holder">
+            <img src="images/random-mountain-pic.jpg" />
+          </div>
+        </header>
+      </div>
+    </div>
+    <!--.row-->
+
+    <div class="row cards">
+      <div class="row cards-container">
+        <div class="col-12">
+          <h2>These are cards</h2>
+          <p>
+            These cards are cool & tell you things about animals! Did you know a bird can run up to 65mph? And a cat can jump 26 feet in the air to catch prey? Animals are so cool.
+          </p>
+          <p>
+            <a href="http://localhost:3000/" target="_blank">Check out more animal facts.</a> There are so many facts to learn.
+          </p>
+        </div>
+        <div class="col-12 selection-row">
+          <p id="selection-description">
+            I want to see:
+          </p>
+          <div id="selectionContainer">
+            <input type="checkbox" checked="true" ata-criteria='cat' value="cat" />
+            <label> Cat
+            </label>
+            <input type="checkbox" checked="true" data-criteria='bird' value="bird" />
+            <label> Bird
+            </label>
+          </div>
+        </div>
+        <div class="card-deck" id="itemsToFilter">
+          <div class="card text-center filterDiv" data-animal="cat">
+            <img src="images/cat.png" class="card-img-top" />
+            <div class="card-body">
+              <h2 class="card-title">This is card 1</h2>
+              <p class="card-text">
+                Cats use their whiskers to determine space between objects in the dark.
+              </p>
+            </div>
+            <div class="card-footer">
+              <p>
+                Click & go
+              </p>
+            </div>
+          </div>
+          <div class="card text-center filterDiv bird" data-animal="bird">
+            <img src="images/birds.png" class="card-img-top" />
+            <div class="card-body">
+              <h2 class="card-title">This is card 1</h2>
+              <p class="card-text">
+                Some birds have membranes that cover their eyes like goggles, enabling them to see while traveling at high speeds.
+              </p>
+            </div>
+            <div class="card-footer">
+              <p>
+                Click & go
+              </p>
+            </div>
+          </div>
+          <div class="card text-center filterDiv cat" data-animal="cat">
+            <img src="images/cat.png" class="card-img-top" />
+            <div class="card-body">
+              <h2 class="card-title">This is card 1</h2>
+              <p class="card-text">
+                The cheetah is the only cat that can't retract its claws.
+              </p>
+            </div>
+            <div class="card-footer">
+              <p>
+                Click & go
+              </p>
+            </div>
+          </div>
+          <div class="card text-center filterDiv bird" data-animal="bird">
+            <img src="images/birds.png" class="card-img-top" />
+            <div class="card-body">
+              <h2 class="card-title">This is card 1</h2>
+              <p class="card-text">
+                Peregrine falcons can fly up to and sometimes surpassing 200mph as they hunt prey. </p>
+            </div>
+            <div class="card-footer">
+              <p>
+                Click & go
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--.row .cards -->
+
+
+    <div class="row constrained-content">
+
+      <div class="row constrained-content-container">
+        <div class="col-12">
+
+          <h2>Here is some constrained content</h2>
+          <p>
+            Where the metal hits the meat player-coach but upsell so please use "solutionise" instead of solution ideas! :). Turn the crank what are the expectations and collaboration through advanced technology yet we need to dialog around your
+            choice of
+            work attire are there any leftovers in the kitchen? those options are already baked in with this model, yet clear blue water.
+          </p>
+          <p>
+            Products need full resourcing and support from a cross-functional team in order to be built, maintained, and evolved quick-win or root-and-branch review. We need to get all stakeholders up to speed and in the right place nobody's fault
+            it
+            could have been managed better drink from the firehose we need to make the new version clean and sexy crisp ppt.
+          </p>
+          <p>
+            Net net mobile friendly. Synergize productive mindfulness bench mark, loop back. Quick win synergize productive mindfulness nor hit the ground running yet when does this sunset?
+          </p>
+        </div>
+        <!--.col-12-->
+
+        <div class="col-lg-4 col-sm-12">
+          <h2>List of things</h2>
+          <ul>
+            <li>
+              Thing 1
+            </li>
+            <li>Another thing</li>
+            <li>THE thing</li>
+            <li>
+              Thingamabob </li>
+            <li>
+              Thingles
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-sm-12">
+          <h2>Have you heard</h2>
+          <p>
+            There was a duck at a store.
+          </p>
+          <p>
+            He ate for free. I should have ordered him more expensive food!
+          </p>
+          <p>
+            The lesson here is DUCKS EAT FOR FREE at that restaurant.
+          </p>
+        </div>
+        <div class="col-lg-4 col-sm-12">
+          <h2>Picture of some things</h2>
+          <div class="row">
+            <div class="col-4">
+              <img src="images/things.jpg" class="img-fluid" />
+            </div>
+            <div class="col-8">
+
+              <p>
+                These guys are pretty coo’. Thing one and thing 2. You'll like what they do. Such fun from so few!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--.row-->
+    <div class="row footer">
+      <div class="col-12">
+        <footer>
+          <p>
+            &copy Example Company Name. All Rights Reserved.
+          </p>
+        </footer>
+      </div>
+    </div>
+    <!--.row-->
+
+  </div>
+
+  <script>
+    var itemsToFilter = document.querySelectorAll("#itemsToFilter div.card");
+    console.log(itemsToFilter);
+
+    var checkBoxes = document.querySelectorAll("#selectionContainer input");
+    console.log(checkBoxes);
+
+    for (var i = 0; i < checkBoxes.length; i++) {
+      checkBoxes[i].addEventListener("click", filterItems, false);
+      checkBoxes[i].checked = true;
+    }
+
+    // the event handler!
+    function filterItems(e) {
+      var clickedItem = e.target;
+
+      if (clickedItem.checked == true) {
+        hideOrShowItems(clickedItem.value, "hideCard", "showCard");
+        console.log(clickedItem.value)
+      } else if (clickedItem.checked == false) {
+        hideOrShowItems(clickedItem.value, "showCard", "hideCard");
+      } else {
+        // deal with the indeterminate state if needed
+      }
+    }
+
+    // add or remove classes to show or hide our content
+    function hideOrShowItems(itemType, classToRemove, classToAdd) {
+      for (var i = 0; i < itemsToFilter.length; i++) {
+        var currentItem = itemsToFilter[i];
+
+        if (currentItem.getAttribute("data-animal") == itemType) {
+          removeClass(currentItem, classToRemove);
+          addClass(currentItem, classToAdd);
+        }
+      }
+    }
+
+    //
+    // Helper functions for adding and removing class values
+    //
+    function addClass(element, classToAdd) {
+      var currentClassValue = element.className;
+
+      if (currentClassValue.indexOf(classToAdd) == -1) {
+        if ((currentClassValue == null) || (currentClassValue === "")) {
+          element.className = classToAdd;
+        } else {
+          element.className += " " + classToAdd;
+        }
+      }
+    }
+
+    function removeClass(element, classToRemove) {
+      var currentClassValue = element.className;
+
+      if (currentClassValue == classToRemove) {
+        element.className = "";
+        return;
+      }
+
+      var classValues = currentClassValue.split(" ");
+      var filteredList = [];
+
+      for (var i = 0; i < classValues.length; i++) {
+        if (classToRemove != classValues[i]) {
+          filteredList.push(classValues[i]);
+        }
+      }
+
+      element.className = filteredList.join(" ");
+    }
+  </script>
+
+</body>
+
+</html>
